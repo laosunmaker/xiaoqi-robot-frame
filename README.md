@@ -8,7 +8,8 @@
 1.  需要安装python（百度搜索即可）
 2.  windows下直接运行项目根目录下的环境配置.cmd，linux请运行python -m pip install -r include.txt
 3.  打开\小淇bot\cqhttp\config.yml修改
-`account: # 账号相关
+```
+account: # 账号相关
   uin: 机器人的qq号 # QQ账号
   password: '机器人的qq密码' # 密码为空时使用扫码登录
   encrypt: false  # 是否开启密码加密
@@ -17,7 +18,7 @@
     delay: 3   # 首次重连延迟, 单位秒
     interval: 3   # 重连间隔
     max-times: 0  # 最大重连次数, 0为无限制
-`
+```
 
 ```
 # 连接服务列表
