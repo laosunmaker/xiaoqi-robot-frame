@@ -4,8 +4,7 @@
 小淇机器人框架，是一个基于python websocket+cqhttp的QQ机器人框架
 
 #### 安装教程
-1.  鉴于完整项目部分文件超出gitee承受上限，请采用云中转下载项目
-    <-下载地址->https://www.yzzpan.com/#sharefile=mfDS6iKM_55444
+1.  下载项目发行版
 2.  需要安装python（百度搜索即可）
 3.  windows下直接运行项目根目录下的环境配置.cmd，linux请运行python -m pip install -r include.txt
 4.  打开\小淇bot\cqhttp\config.yml修改
