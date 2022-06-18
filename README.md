@@ -4,10 +4,11 @@
 小淇机器人框架，是一个基于python websocket+cqhttp的QQ机器人框架
 
 #### 安装教程
-
-1.  需要安装python（百度搜索即可）
-2.  windows下直接运行项目根目录下的环境配置.cmd，linux请运行python -m pip install -r include.txt
-3.  打开\小淇bot\cqhttp\config.yml修改
+1.  鉴于完整项目部分文件超出gitee承受上限，请采用云中转下载项目
+    <-下载地址->https://www.yzzpan.com/#sharefile=mfDS6iKM_55444
+2.  需要安装python（百度搜索即可）
+3.  windows下直接运行项目根目录下的环境配置.cmd，linux请运行python -m pip install -r include.txt
+4.  打开\小淇bot\cqhttp\config.yml修改
 ```
 account: # 账号相关
   uin: 机器人的qq号 # QQ账号
@@ -48,10 +49,10 @@ servers:
       middlewares:
         <<: *default # 引用默认中间件
 ```
-4.配置成功后使用\小淇bot\小淇bot.py文件启动小淇即可
+5.配置成功后使用\小淇bot\小淇bot.py文件启动小淇即可
 
 #### 使用说明
 
 1.  你可以在config文件夹下进行机器人的各种配置，比如黑白名单机制web配置
 2.  plugins文件夹下提供了机器人插件python脚本，欢迎随便进行修改
-###### 更多问题请询问qq：1650562331
+##### 更多问题请询问qq：1650562331
